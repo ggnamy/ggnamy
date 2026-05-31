@@ -1,128 +1,108 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFF4E6"/>
-      <stop offset="35%" stop-color="#FFDAB9"/>
-      <stop offset="70%" stop-color="#FFB088"/>
-      <stop offset="100%" stop-color="#E89668"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FFEDD5"/>
     </linearGradient>
-    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#FFEDD5" stop-opacity="0.85"/>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
     </linearGradient>
-    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C2410C"/>
-      <stop offset="50%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#D97706"/>
-    </linearGradient>
-    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#FEF3C7"/>
-      <stop offset="60%" stop-color="#FCD34D"/>
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.6"/>
-    </radialGradient>
-    <symbol id="cloudShape" viewBox="0 0 120 60">
-      <ellipse cx="30" cy="40" rx="22" ry="18" fill="url(#cloud)"/>
-      <ellipse cx="55" cy="32" rx="28" ry="22" fill="url(#cloud)"/>
-      <ellipse cx="85" cy="40" rx="22" ry="18" fill="url(#cloud)"/>
-      <ellipse cx="100" cy="42" rx="14" ry="12" fill="url(#cloud)"/>
-    </symbol>
-    <symbol id="pixStar" viewBox="0 0 12 12">
-      <rect x="5" y="0" width="2" height="2" fill="#FEF3C7"/>
-      <rect x="5" y="10" width="2" height="2" fill="#FEF3C7"/>
-      <rect x="0" y="5" width="2" height="2" fill="#FEF3C7"/>
-      <rect x="10" y="5" width="2" height="2" fill="#FEF3C7"/>
-      <rect x="4" y="4" width="4" height="4" fill="#FFFBEB"/>
-    </symbol>
-    <symbol id="heart" viewBox="0 0 14 14">
-      <path d="M7 12 L1.5 6.5 C-0.5 4 1 1 3.5 1 C5 1 6.5 2 7 3 C7.5 2 9 1 10.5 1 C13 1 14.5 4 12.5 6.5 Z" fill="#EA580C"/>
-    </symbol>
-    <symbol id="sparkle" viewBox="0 0 16 16">
-      <path d="M8 0 L9 6 L15 8 L9 9 L8 15 L7 9 L1 8 L7 6 Z" fill="#FFFBEB" opacity="0.95"/>
-    </symbol>
-    <symbol id="flower" viewBox="0 0 20 20">
-      <circle cx="10" cy="4" r="3.5" fill="#FED7AA"/>
-      <circle cx="16" cy="10" r="3.5" fill="#FED7AA"/>
-      <circle cx="10" cy="16" r="3.5" fill="#FED7AA"/>
-      <circle cx="4" cy="10" r="3.5" fill="#FED7AA"/>
-      <circle cx="10" cy="10" r="3" fill="#FCD34D"/>
-    </symbol>
-    <symbol id="croissant" viewBox="0 0 30 20">
-      <path d="M5 14 Q3 10 6 7 Q10 4 15 5 Q20 4 24 7 Q27 10 25 14 Q22 17 15 16 Q8 17 5 14 Z" fill="#D97706" stroke="#92400E" stroke-width="1"/>
-      <path d="M9 11 Q12 9 15 10 Q18 9 21 11" stroke="#92400E" stroke-width="0.8" fill="none"/>
-    </symbol>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#7C2D12" flood-opacity="0.12"/>
+    </filter>
   </defs>
-  <rect width="1200" height="340" fill="url(#sky)"/>
-  <circle cx="950" cy="100" r="60" fill="url(#sun)" opacity="0.7">
-    <animate attributeName="r" values="60;65;60" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <g>
-    <use href="#pixStar" x="80" y="30" width="14" height="14"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="220" y="55" width="10" height="10"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="350" y="25" width="12" height="12"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="1050" y="60" width="10" height="10"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="1130" y="30" width="12" height="12"><animate attributeName="opacity" values="1;0.4;1" dur="3.2s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="500" y="45" width="9" height="9"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="750" y="50" width="11" height="11"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></use>
-    <use href="#pixStar" x="650" y="80" width="9" height="9"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/></use>
+
+  <!-- Background -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+
+  <!-- Minimal circles -->
+  <circle cx="1060" cy="70" r="120" fill="#FDBA74" opacity="0.18"/>
+  <circle cx="120" cy="290" r="90" fill="#FED7AA" opacity="0.55"/>
+
+  <!-- Main card -->
+  <rect x="90" y="60" width="1020" height="220" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Accent line -->
+  <rect x="130" y="98" width="70" height="5" rx="3" fill="url(#accent)"/>
+
+  <!-- Label -->
+  <text x="130" y="130"
+        font-family="Inter, Arial, sans-serif"
+        font-size="14"
+        font-weight="700"
+        letter-spacing="3"
+        fill="#C2410C">
+    PORTFOLIO
+  </text>
+
+  <!-- Name -->
+  <text x="130" y="185"
+        font-family="Inter, Arial, sans-serif"
+        font-size="58"
+        font-weight="800"
+        fill="#1F2937">
+    Genius
+  </text>
+
+  <!-- Subtitle -->
+  <text x="130" y="220"
+        font-family="Inter, Arial, sans-serif"
+        font-size="22"
+        font-weight="500"
+        fill="#7C2D12">
+    Anmanya Khongmee · Student Developer
+  </text>
+
+  <!-- Description -->
+  <text x="130" y="252"
+        font-family="Inter, Arial, sans-serif"
+        font-size="16"
+        font-weight="400"
+        fill="#6B7280">
+    Digital Industry Integration · CAMT, Chiang Mai University
+  </text>
+
+  <!-- Right section -->
+  <g transform="translate(800 105)">
+    <text x="0" y="0"
+          font-family="Inter, Arial, sans-serif"
+          font-size="13"
+          font-weight="700"
+          letter-spacing="2.5"
+          fill="#C2410C">
+      FOCUS
+    </text>
+
+    <text x="0" y="40"
+          font-family="Inter, Arial, sans-serif"
+          font-size="28"
+          font-weight="800"
+          fill="#1F2937">
+      Web Development
+    </text>
+
+    <text x="0" y="72"
+          font-family="Inter, Arial, sans-serif"
+          font-size="16"
+          font-weight="400"
+          fill="#6B7280">
+      UI Design · Frontend · Digital Solutions
+    </text>
+
+    <rect x="0" y="96" width="180" height="3" rx="3" fill="url(#accent)"/>
   </g>
-  <g opacity="0.85">
-    <use href="#cloudShape" x="-150" y="40" width="180" height="90"><animateTransform attributeName="transform" type="translate" from="0 0" to="1400 0" dur="40s" repeatCount="indefinite"/></use>
-    <use href="#cloudShape" x="-400" y="90" width="150" height="75"><animateTransform attributeName="transform" type="translate" from="0 0" to="1700 0" dur="50s" repeatCount="indefinite"/></use>
-    <use href="#cloudShape" x="-700" y="20" width="200" height="100"><animateTransform attributeName="transform" type="translate" from="0 0" to="2000 0" dur="60s" repeatCount="indefinite"/></use>
-  </g>
-  <g>
-    <use href="#sparkle" x="100" y="140" width="12" height="12"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -15; 0 0" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/></use>
-    <use href="#sparkle" x="1080" y="160" width="14" height="14"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -20; 0 0" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/></use>
-    <use href="#sparkle" x="200" y="200" width="10" height="10"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></use>
-    <use href="#sparkle" x="980" y="210" width="11" height="11"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -18; 0 0" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="4.5s" repeatCount="indefinite"/></use>
-    <use href="#sparkle" x="560" y="100" width="10" height="10"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -14; 0 0" dur="3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></use>
-  </g>
-  <g>
-    <use href="#heart" x="150" y="300" width="16" height="16"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -260" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/></use>
-    <use href="#heart" x="1020" y="300" width="14" height="14"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -270" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="9s" begin="2s" repeatCount="indefinite"/></use>
-    <use href="#heart" x="80" y="300" width="12" height="12"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -250" dur="10s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="10s" begin="4s" repeatCount="indefinite"/></use>
-    <use href="#heart" x="1110" y="300" width="15" height="15"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -280" dur="11s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="11s" begin="1s" repeatCount="indefinite"/></use>
-    <use href="#heart" x="600" y="300" width="13" height="13"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -270" dur="9.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="9.5s" begin="3s" repeatCount="indefinite"/></use>
-  </g>
-  <use href="#flower" x="40" y="260" width="32" height="32"><animateTransform attributeName="transform" type="rotate" values="0 56 276; 360 56 276" dur="20s" repeatCount="indefinite"/></use>
-  <use href="#flower" x="1130" y="260" width="32" height="32"><animateTransform attributeName="transform" type="rotate" values="0 1146 276; -360 1146 276" dur="22s" repeatCount="indefinite"/></use>
-  <use href="#croissant" x="240" y="280" width="36" height="24"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3s" repeatCount="indefinite"/></use>
-  <use href="#croissant" x="920" y="285" width="32" height="22"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="3.5s" repeatCount="indefinite"/></use>
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="3s" repeatCount="indefinite"/>
-    <path d="M 140 210 Q 140 175 175 175 Q 210 175 210 210 L 210 255 Q 205 260 200 255 Q 195 260 190 255 Q 185 260 180 255 Q 175 260 170 255 Q 165 260 160 255 Q 155 260 150 255 Q 145 260 140 255 Z" fill="#FFF8F0" stroke="#C2410C" stroke-width="2.5"/>
-    <circle cx="158" cy="220" r="5" fill="#FED7AA" opacity="0.95"/>
-    <circle cx="192" cy="220" r="5" fill="#FED7AA" opacity="0.95"/>
-    <ellipse cx="165" cy="210" rx="2.5" ry="3.5" fill="#1F2937"/>
-    <ellipse cx="185" cy="210" rx="2.5" ry="3.5" fill="#1F2937"/>
-    <circle cx="165.8" cy="209" r="0.8" fill="#FFFFFF"/>
-    <circle cx="185.8" cy="209" r="0.8" fill="#FFFFFF"/>
-    <path d="M 172 223 Q 175 227 178 223" stroke="#1F2937" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-    <path d="M 175 175 L 168 169 L 168 179 Z" fill="#EA580C"/>
-    <path d="M 175 175 L 182 169 L 182 179 Z" fill="#EA580C"/>
-    <circle cx="175" cy="175" r="2" fill="#C2410C"/>
-  </g>
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="3.5s" repeatCount="indefinite"/>
-    <ellipse cx="1025" cy="235" rx="40" ry="35" fill="#FED7AA" stroke="#C2410C" stroke-width="2.5"/>
-    <path d="M 995 210 L 988 188 L 1010 202 Z" fill="#FED7AA" stroke="#C2410C" stroke-width="2.5"/>
-    <path d="M 1055 210 L 1062 188 L 1040 202 Z" fill="#FED7AA" stroke="#C2410C" stroke-width="2.5"/>
-    <path d="M 996 208 L 992 195 L 1004 202 Z" fill="#FB923C"/>
-    <path d="M 1054 208 L 1058 195 L 1046 202 Z" fill="#FB923C"/>
-    <circle cx="1005" cy="242" r="5" fill="#FB923C" opacity="0.85"/>
-    <circle cx="1045" cy="242" r="5" fill="#FB923C" opacity="0.85"/>
-    <path d="M 1013 230 Q 1017 225 1021 230" stroke="#1F2937" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M 1029 230 Q 1033 225 1037 230" stroke="#1F2937" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M 1022 238 Q 1025 242 1028 238" stroke="#1F2937" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-    <path d="M 1063 240 Q 1085 235 1080 215 Q 1078 205 1085 202" stroke="#C2410C" stroke-width="3" fill="none" stroke-linecap="round"><animate attributeName="d" values="M 1063 240 Q 1085 235 1080 215 Q 1078 205 1085 202; M 1063 240 Q 1085 242 1090 225 Q 1092 210 1095 206; M 1063 240 Q 1085 235 1080 215 Q 1078 205 1085 202" dur="2.5s" repeatCount="indefinite"/></path>
-  </g>
-  <g>
-    <text x="600" y="158" font-family="'Quicksand', 'Comic Sans MS', sans-serif" font-size="64" font-weight="800" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="2">✿ Genius World ✿</text>
-  </g>
-  <text x="600" y="200" font-family="'Quicksand', sans-serif" font-size="20" font-weight="600" fill="#7C2D12" text-anchor="middle" opacity="0.9" letter-spacing="3">Anmanya Khongmee ・ Student Developer ・ DII @ CAMT, CMU</text>
-  <line x1="450" y1="220" x2="750" y2="220" stroke="#C2410C" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.65"/>
-  <text x="600" y="250" font-family="'Quicksand', sans-serif" font-size="15" font-weight="500" fill="#9A3412" text-anchor="middle" opacity="0.85" letter-spacing="2">♡ Welcome to my Cozy Coding World ♡</text>
-  <g fill="#C2410C" opacity="0.5">
-    <rect x="280" y="305" width="4" height="4"/><rect x="320" y="310" width="4" height="4"/><rect x="360" y="305" width="4" height="4"/><rect x="400" y="308" width="4" height="4"/><rect x="440" y="305" width="4" height="4"/><rect x="800" y="305" width="4" height="4"/><rect x="840" y="308" width="4" height="4"/><rect x="880" y="305" width="4" height="4"/><rect x="920" y="310" width="4" height="4"/>
-  </g>
+
+  <!-- Footer -->
+  <text x="1070" y="302"
+        font-family="Inter, Arial, sans-serif"
+        font-size="12"
+        font-weight="600"
+        letter-spacing="2"
+        fill="#9CA3AF"
+        text-anchor="end">
+    CLEAN · SIMPLE · PROFESSIONAL
+  </text>
 </svg>
