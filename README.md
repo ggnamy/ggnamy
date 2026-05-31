@@ -1,9 +1,5 @@
 <!-- 🍑✨ Hi' GENIUS  — COZY KAWAII PROFILE ✨🍑 -->
 
-<!-- ════════════════════════════════════════════════════════ -->
-<!--          🌷 CUSTOM ANIMATED HEADER BANNER 🌷             -->
-<!-- ════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
 <img src="./assets/header.svg" alt="Genius World" width="100%" />
@@ -38,7 +34,6 @@
 
 <br>
 
-<!-- 🌈 ANIMATED ORANGE DIVIDER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,1,30,12,24&height=4&section=header" width="100%" />
 </div>
@@ -60,36 +55,27 @@
     <td width="55%" valign="top">
 
 ```yaml
-  ──────────────────────────────
- ✿  G E N I U S   P R O F I L E  ✿
-  ────────────────────────────── 
-
-  🎀  Name      :  Anmanya Khongmee
-  🍑  Nickname  :  Genius
-  💻  Role      :  Student Developer
-  🎓  Major     :  Digital Industry
-                   Integration (DII)
-  🏫  Faculty   :  CAMT
-  🌼  School    :  Chiang Mai University
-  ✨  Status    :  Learning & Growing
-  ☕  Mood      :  Cozy coding vibes
-
- ────────────────────────────── 
+╭── ✿ Genius Profile ✿ ──╮
+│ 🎀 Name     : Anmanya Khongmee
+│ 🍑 Nickname : Genius
+│ 💻 Role     : Student Developer
+│ 🎓 Major    : DII @ CAMT, CMU
+│ ✨ Status   : Learning & Growing
+│ ☕ Mood     : Cozy coding vibes
+╰────────────────────────╯
 ```
 
 ### ☕ Hi, I'm Genius!
 
-I'm a student at **CAMT, Chiang Mai University**, majoring in **Digital Industry Integration (DII)**.
-
-I like making websites that feel warm, soft, and easy to use — the kind of stuff I'd actually want to use myself. Right now I'm spending most of my time on **web dev**, **UI design**, and trying to figure out how to make things look really pretty.
-
-Outside of coding, I'm probably drinking coffee, taking photos, or thinking about my next little project. 🍂
+Student Developer from **DII @ CAMT, Chiang Mai University**.  
+I enjoy building soft, cozy, and easy-to-use websites with a cute UI touch. 🍂
 
 <br>
 
-> 🌷 *"Make it cute. Make it work. Make it yours."* 🌷
+> 🌷 *Cute. Clean. Useful.* 🌷
 
 </td>
+
 <td width="45%" align="center" valign="top">
 
 <br>
@@ -118,7 +104,6 @@ Outside of coding, I'm probably drinking coffee, taking photos, or thinking abou
   </tr>
 </table>
 
-<!-- 🌈 ANIMATED RAINBOW DIVIDER -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/216655975-c46545bc-9657-4f95-b362-58e83b21bbd3.gif" width="100%" />
 </div>
@@ -171,56 +156,6 @@ Outside of coding, I'm probably drinking coffee, taking photos, or thinking abou
 </div>
 
 <!-- ════════════════════════════════════════════════════════ -->
-<!--                  ☕ WHAT I'M UP TO ☕                    -->
-<!-- ════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-# ☕ ✦ What I'm Up To ✦ ☕
-
-<table>
-  <tr>
-    <td align="center" width="33%" valign="top">
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWUxN3VicW8wbjdsMjEwNWp1MzZreWMxMmgyemJrbGZ3M2RsZGM4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="80" />
-      <h3>🌱 Currently Learning</h3>
-      <br>
-      <b>HTML · CSS · JavaScript</b><br>
-      <b>React · Vite · Tailwind</b><br>
-      <br>
-      <sub>One line at a time 🍂</sub>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="80" />
-      <h3>🎨 Mostly Into</h3>
-      <br>
-      <b>Web Development</b><br>
-      <b>UI Design · Cozy themes</b><br>
-      <br>
-      <sub>Soft interfaces, happy users 🌷</sub>
-    </td>
-    <td align="center" width="33%" valign="top">
-      <img src="https://media.giphy.com/media/jTNJjbu94n02PHi0LO/giphy.gif" width="80" />
-      <h3>🤝 Down For</h3>
-      <br>
-      <b>Web Collabs</b><br>
-      <b>Student Projects</b><br>
-      <br>
-      <sub>Hit me up anytime 🍑</sub>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<img src="https://img.shields.io/badge/🎯_Goal-Build_cute,_clean,_useful_websites-EA580C?style=for-the-badge&labelColor=fed7aa" />
-
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" />
-</div>
-
-<!-- ════════════════════════════════════════════════════════ -->
 <!--                  🍯 TECH STACK 🍯                        -->
 <!-- ════════════════════════════════════════════════════════ -->
 
@@ -258,7 +193,6 @@ Outside of coding, I'm probably drinking coffee, taking photos, or thinking abou
 
 <br><br>
 
-<!-- ✨ ANIMATED TECH GIFS ✨ -->
 <img src="https://user-images.githubusercontent.com/74038190/235294007-de441046-823e-4eff-89bf-2b1373755dec.gif" width="60" />
 <img src="https://user-images.githubusercontent.com/74038190/235294009-1cce1235-bb01-4fc3-8da7-cc5ba1c2643b.gif" width="60" />
 <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37e3-4b1e-b6b5-c44d4d407236.gif" width="60" />
@@ -318,20 +252,10 @@ Outside of coding, I'm probably drinking coffee, taking photos, or thinking abou
 
 <br>
 
-<img src="https://progress-bar.dev/65?title=HTML%20%26%20CSS&color=fb923c&width=500" />
-<br>
-<img src="https://progress-bar.dev/50?title=JavaScript&color=fcd34d&width=500" />
-<br>
-<img src="https://progress-bar.dev/40?title=React&color=fed7aa&width=500" />
-<br>
-<img src="https://progress-bar.dev/55?title=GitHub%20Workflow&color=fdba74&width=500" />
-<br>
-<img src="https://progress-bar.dev/35?title=Real%20Projects&color=ea580c&width=500" />
-
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4d1c14c0247f.gif" width="100%" />
 </div>
 
 <!-- ════════════════════════════════════════════════════════ -->
@@ -408,32 +332,7 @@ Outside of coding, I'm probably drinking coffee, taking photos, or thinking abou
 
 <br>
 
-<a href="https://github.com/ggnamy">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ggnamy&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1c1917&title_color=fb923c&icon_color=ea580c&text_color=fed7aa&ring_color=fb923c" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=ggnamy&theme=gruvbox&hide_border=true&background=1c1917&ring=fb923c&fire=ea580c&currStreakLabel=fb923c&sideLabels=fed7aa&dates=fde68a&stroke=fb923c" />
-</a>
 
-<br><br>
-
-<a href="https://github.com/ggnamy">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ggnamy&layout=compact&theme=gruvbox&hide_border=true&bg_color=1c1917&title_color=fb923c&text_color=fed7aa&langs_count=8" />
-</a>
-
-<br><br>
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ggnamy/ggnamy/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ggnamy/ggnamy/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/ggnamy/ggnamy/output/github-contribution-grid-snake.svg" />
-</picture>
-
-<br><br>
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=ggnamy&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=7" />
-</a>
 
 <br><br>
 
@@ -517,16 +416,7 @@ Outside of coding, I'm probably drinking coffee, taking photos, or thinking abou
 
 <i>🌱 Building things, breaking things, learning a lot. 🍂</i>
 
-<br>
-
-```
-        ╱|、
-      (˚ˎ 。7    < meow~ 🍑
-       |、˜〵          welcome to
-       じしˍ,)ノ      Genius World!
-```
-
-<br>
+<br><br>
 
 <h3>🍂 Thanks for stopping by! 🍂</h3>
 
